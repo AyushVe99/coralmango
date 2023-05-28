@@ -1,0 +1,62 @@
+.table-view {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 54px;
+  }
+  
+  .card h3 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    margin: 5px 0;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .searchInput{
+    margin: 20px 20px;
+    padding: 8px 32px;
+    padding-left: 80px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  p {
+    color: #999;
+    font-style: italic;
+  }
+  
+  table tr,th,td{
+    border: 1px solid black;
+    text-align: center;
+  } 
