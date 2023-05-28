@@ -25,7 +25,7 @@ const LoginPage = ({ handleLogin }) => {
             type="text"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
-          />
+          placeholder="Enter your Name"/>
         </div>
         <div>
           <label>Password : </label>
@@ -33,6 +33,7 @@ const LoginPage = ({ handleLogin }) => {
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            placeholder="Enter your Password"
           />
         </div>
         <button type="submit" className="loginBtn">Login</button>
